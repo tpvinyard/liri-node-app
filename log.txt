@@ -1,0 +1,22 @@
+
+-------------------------------------
+TypeError: Cannot read property 'name' of undefined
+
+-------------------------------------
+Venue: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+-------------------------------------
+
+
+-------------------------------------
+Venue: Biosalongen Folkets Hus
+Where: Haparanda,  Sweden
+Venue: undefined
+-------------------------------------
+
+
+-------------------------------------
+Venue: Biosalongen Folkets Hus
+Where: Haparanda,  Sweden
+Venue: 2019-10-10T19:00:00
+-------------------------------------
+
