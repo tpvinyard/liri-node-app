@@ -9,12 +9,14 @@ const spotify = new Spotify(keys.spotify);
 
 const omdb = keys.omdb.key;
 
+// const bandsInTown = keys.bandsInTown.key;
+
 let command = process.argv[2];
 let toSearch = process.argv.slice(3).join('+');
 
 switch (command) {
     case 'concert-this':
-
+//        searchBandsInTown(toSearch);
     break;
     case 'spotify-this-song':
         searchSpotify(toSearch);
@@ -122,9 +124,39 @@ function searchSpotify(toSearch) {
     };
 };
 
-function searchBandsInTown(toSearch) {
-
-};
+// function searchBandsInTown(toSearch) {
+//     if(toSearch) {
+//         axios
+//         .get(`https://rest.bandsintown.com/artists/${toSearch}/events?app_id=codingbootcamp`)
+//         .then(function(response) {
+//             appendTextToLogAndConsoleLog('');
+//             appendTextToLogAndConsoleLog('-------------------------------------');
+//             appendTextToLogAndConsoleLog('Venue: ' + response.data.venue.name);
+//             appendTextToLogAndConsoleLog('Where: ' + response.data.venue.city + ', ' + response.data.venue.region + ' ' + response.data.venue.country);
+//             appendTextToLogAndConsoleLog('Venue: ' + response.data.venue.datetime);
+//             appendTextToLogAndConsoleLog('-------------------------------------');
+//             appendTextToLogAndConsoleLog('');
+//         })
+//         .catch(function(err) {
+//             appendTextToLogAndConsoleLog(err);
+//         });
+//     } else {
+//         axios
+//         .get(`https://rest.bandsintown.com/artists/Jonas+Brothers/events?app_id=codingbootcamp`)
+//         .then(function(response) {
+//             appendTextToLogAndConsoleLog('');
+//             appendTextToLogAndConsoleLog('-------------------------------------');
+//             appendTextToLogAndConsoleLog('Venue: ' + response.data.venue.name);
+//             appendTextToLogAndConsoleLog('Where: ' + response.data.venue.city + ', ' + response.data.venue.region + ' ' + response.data.venue.country);
+//             appendTextToLogAndConsoleLog('Venue: ' + response.data.venue.datetime);
+//             appendTextToLogAndConsoleLog('-------------------------------------');
+//             appendTextToLogAndConsoleLog('');
+//         })
+//         .catch(function(err) {
+//             appendTextToLogAndConsoleLog(err);
+//         });
+//     }
+// };
 
 function appendTextToLogAndConsoleLog(text) {
     console.log(text);
