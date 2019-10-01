@@ -17,86 +17,116 @@ switch (command) {
 
     break;
     case 'spotify-this-song':
-        if (toSearch) {
-            spotify
-                .request(`https://api.spotify.com/v1/search?q="${toSearch}"&type=track`)
-                .then(function(response) {
-                    console.log('');
-                    console.log('-------------------------------------');
-                    console.log('Artist Name(s): ' + response.tracks.items[0].artists[0].name);
-                    console.log('Song name: ' + response.tracks.items[0].name);
-                    console.log('Link on Spotify: ' + response.tracks.items[0].external_urls.spotify);
-                    console.log('Album: ' + response.tracks.items[0].album.name);
-                    console.log('-------------------------------------');
-                    console.log('');
-                })
-                .catch(function(err) {
-                    console.log(err);
-                })
-        } else {
-            spotify
-                .request(`https://api.spotify.com/v1/search?q="The+Sign"+artist:"ace+of+base"&type=track`)
-                .then(function(response) {
-                    console.log('');
-                    console.log('-------------------------------------');
-                    console.log('Artist Name(s): ' + response.tracks.items[0].artists[0].name);
-                    console.log('Song name: ' + response.tracks.items[0].name);
-                    console.log('Link on Spotify: ' + response.tracks.items[0].external_urls.spotify);
-                    console.log('Album: ' + response.tracks.items[0].album.name);
-                    console.log('-------------------------------------');
-                    console.log('');
-                })
-                .catch(function(err) {
-                    console.log(err);
-                })
-        };
+        searchSpotify(toSearch);
     break;
     case 'movie-this':
-        if (toSearch) {
-            axios
-                .get(`http://www.omdbapi.com/?t=${toSearch}&y=&plot=short&apikey=${omdb}`)
-                .then(function(response) {
-                    console.log('');
-                    console.log('-------------------------------------');
-                    console.log('Title: ' + response.data.Title);
-                    console.log('Year of release: ' + response.data.Year);
-                    console.log('IMDB Rating: ' + response.data.imdbRating);
-                    console.log('Rotten Tomatoes Rating: ' + response.data.Ratings[1].Value);
-                    console.log('Country of Production: ' + response.data.Country);
-                    console.log('Language: ' + response.data.Language);
-                    console.log('Plot: ' + response.data.Plot);
-                    console.log('Actors/Actresses: ' + response.data.Actors);
-                    console.log('-------------------------------------');
-                    console.log('');
-                })
-                .catch(function(err) {
-                    console.log(err);
-                })
-        } else {
-            axios
-            .get(`http://www.omdbapi.com/?t=Mr.+Nobody,&y=&plot=short&apikey=${omdb}`)
-            .then(function(response) {
-                console.log('');
-                console.log('-------------------------------------');
-                console.log('Title: ' + response.data.Title);
-                console.log('Year of release: ' + response.data.Year);
-                console.log('IMDB Rating: ' + response.data.imdbRating);
-                console.log('Rotten Tomatoes Rating: ' + response.data.Ratings[1].Value);
-                console.log('Country of Production: ' + response.data.Country);
-                console.log('Language: ' + response.data.Language);
-                console.log('Plot: ' + response.data.Plot);
-                console.log('Actors/Actresses: ' + response.data.Actors);
-                console.log('-------------------------------------');
-                console.log('');
-            })
-            .catch(function(err) {
-                console.log(err);
-            })
-        }
+        searchOMDB(toSearch);
     break;
     case 'do-what-it-says':
-
+        fs.readFile('random.txt', 'utf8', function(err, data) {
+            if (err) {
+                console.log(err);
+            }
+            data = data.split(', ');
+            if (data[0] === 'concert-this') {
+                searchBandsInTown(data[1]);
+            } else if (data[0] === 'spotify-this-song') {
+                searchSpotify(data[1]);
+            } else if (data[0] === 'movie-this') {
+                searchOMDB(data[1]);
+            }
+        });
     break;
     default:
         console.log("Please enter a valid search term ('concert-this', 'spotify-this-song', 'movie-this', 'do-what-it-says'): \n");
+}
+
+
+function searchOMDB(toSearch) {
+    if (toSearch) {
+        axios
+            .get(`http://www.omdbapi.com/?t=${toSearch}&y=&plot=short&apikey=${omdb}`)
+            .then(function(response) {
+                appendTextToLogAndConsoleLog('');
+                appendTextToLogAndConsoleLog('-------------------------------------');
+                appendTextToLogAndConsoleLog('Title: ' + response.data.Title);
+                appendTextToLogAndConsoleLog('Year of release: ' + response.data.Year);
+                appendTextToLogAndConsoleLog('IMDB Rating: ' + response.data.imdbRating);
+                appendTextToLogAndConsoleLog('Rotten Tomatoes Rating: ' + response.data.Ratings[1].Value);
+                appendTextToLogAndConsoleLog('Country of Production: ' + response.data.Country);
+                appendTextToLogAndConsoleLog('Language: ' + response.data.Language);
+                appendTextToLogAndConsoleLog('Plot: ' + response.data.Plot);
+                appendTextToLogAndConsoleLog('Actors/Actresses: ' + response.data.Actors);
+                appendTextToLogAndConsoleLog('-------------------------------------');
+                appendTextToLogAndConsoleLog('');
+            })
+            .catch(function(err) {
+                appendTextToLogAndConsoleLog(err);
+            })
+    } else {
+        axios
+        .get(`http://www.omdbapi.com/?t=Mr.+Nobody,&y=&plot=short&apikey=${omdb}`)
+        .then(function(response) {
+            appendTextToLogAndConsoleLog('');
+            appendTextToLogAndConsoleLog('-------------------------------------');
+            appendTextToLogAndConsoleLog('Title: ' + response.data.Title);
+            appendTextToLogAndConsoleLog('Year of release: ' + response.data.Year);
+            appendTextToLogAndConsoleLog('IMDB Rating: ' + response.data.imdbRating);
+            appendTextToLogAndConsoleLog('Rotten Tomatoes Rating: ' + response.data.Ratings[1].Value);
+            appendTextToLogAndConsoleLog('Country of Production: ' + response.data.Country);
+            appendTextToLogAndConsoleLog('Language: ' + response.data.Language);
+            appendTextToLogAndConsoleLog('Plot: ' + response.data.Plot);
+            appendTextToLogAndConsoleLog('Actors/Actresses: ' + response.data.Actors);
+            appendTextToLogAndConsoleLog('-------------------------------------');
+            appendTextToLogAndConsoleLog('');
+        })
+        .catch(function(err) {
+            appendTextToLogAndConsoleLog(err);
+        });
+    };
+};
+
+function searchSpotify(toSearch) {
+    if (toSearch) {
+        spotify
+            .request(`https://api.spotify.com/v1/search?q="${toSearch}"&type=track`)
+            .then(function(response) {
+                appendTextToLogAndConsoleLog('');
+                appendTextToLogAndConsoleLog('-------------------------------------');
+                appendTextToLogAndConsoleLog('Artist Name(s): ' + response.tracks.items[0].artists[0].name);
+                appendTextToLogAndConsoleLog('Song name: ' + response.tracks.items[0].name);
+                appendTextToLogAndConsoleLog('Link on Spotify: ' + response.tracks.items[0].external_urls.spotify);
+                appendTextToLogAndConsoleLog('Album: ' + response.tracks.items[0].album.name);
+                appendTextToLogAndConsoleLog('-------------------------------------');
+                appendTextToLogAndConsoleLog('');
+            })
+            .catch(function(err) {
+                appendTextToLogAndConsoleLog(err);
+            })
+    } else {
+        spotify
+            .request(`https://api.spotify.com/v1/search?q="The+Sign"+artist:"ace+of+base"&type=track`)
+            .then(function(response) {
+                appendTextToLogAndConsoleLog('');
+                appendTextToLogAndConsoleLog('-------------------------------------');
+                appendTextToLogAndConsoleLog('Artist Name(s): ' + response.tracks.items[0].artists[0].name);
+                appendTextToLogAndConsoleLog('Song name: ' + response.tracks.items[0].name);
+                appendTextToLogAndConsoleLog('Link on Spotify: ' + response.tracks.items[0].external_urls.spotify);
+                appendTextToLogAndConsoleLog('Album: ' + response.tracks.items[0].album.name);
+                appendTextToLogAndConsoleLog('-------------------------------------');
+                appendTextToLogAndConsoleLog('');
+            })
+            .catch(function(err) {
+                appendTextToLogAndConsoleLog(err);
+            })
+    };
+};
+
+function searchBandsInTown(toSearch) {
+
+};
+
+function appendTextToLogAndConsoleLog(text) {
+    console.log(text);
+    fs.appendFileSync('log.txt', `${text}\n`)
 }
