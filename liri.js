@@ -2,6 +2,7 @@ require("dotenv").config();
 let keys = require("./keys.js");
 let axios = require('axios');
 let Spotify = require('node-spotify-api');
+let fs = require('fs');
 
 // new keys
 const spotify = new Spotify(keys.spotify);
@@ -20,7 +21,14 @@ switch (command) {
             spotify
                 .request(`https://api.spotify.com/v1/search?q="${toSearch}"&type=track`)
                 .then(function(response) {
-                    console.log(response.tracks.items[0]);
+                    console.log('');
+                    console.log('-------------------------------------');
+                    console.log('Artist Name(s): ' + response.tracks.items[0].artists[0].name);
+                    console.log('Song name: ' + response.tracks.items[0].name);
+                    console.log('Link on Spotify: ' + response.tracks.items[0].external_urls.spotify);
+                    console.log('Album: ' + response.tracks.items[0].album.name);
+                    console.log('-------------------------------------');
+                    console.log('');
                 })
                 .catch(function(err) {
                     console.log(err);
@@ -29,7 +37,14 @@ switch (command) {
             spotify
                 .request(`https://api.spotify.com/v1/search?q="The+Sign"+artist:"ace+of+base"&type=track`)
                 .then(function(response) {
-                    console.log(response.tracks.items[0]);
+                    console.log('');
+                    console.log('-------------------------------------');
+                    console.log('Artist Name(s): ' + response.tracks.items[0].artists[0].name);
+                    console.log('Song name: ' + response.tracks.items[0].name);
+                    console.log('Link on Spotify: ' + response.tracks.items[0].external_urls.spotify);
+                    console.log('Album: ' + response.tracks.items[0].album.name);
+                    console.log('-------------------------------------');
+                    console.log('');
                 })
                 .catch(function(err) {
                     console.log(err);
@@ -41,7 +56,9 @@ switch (command) {
             axios
                 .get(`http://www.omdbapi.com/?t=${toSearch}&y=&plot=short&apikey=${omdb}`)
                 .then(function(response) {
-                    console.log('Title :' + response.data.Title);
+                    console.log('');
+                    console.log('-------------------------------------');
+                    console.log('Title: ' + response.data.Title);
                     console.log('Year of release: ' + response.data.Year);
                     console.log('IMDB Rating: ' + response.data.imdbRating);
                     console.log('Rotten Tomatoes Rating: ' + response.data.Ratings[1].Value);
@@ -49,6 +66,8 @@ switch (command) {
                     console.log('Language: ' + response.data.Language);
                     console.log('Plot: ' + response.data.Plot);
                     console.log('Actors/Actresses: ' + response.data.Actors);
+                    console.log('-------------------------------------');
+                    console.log('');
                 })
                 .catch(function(err) {
                     console.log(err);
@@ -57,7 +76,9 @@ switch (command) {
             axios
             .get(`http://www.omdbapi.com/?t=Mr.+Nobody,&y=&plot=short&apikey=${omdb}`)
             .then(function(response) {
-                console.log('Title :' + response.data.Title);
+                console.log('');
+                console.log('-------------------------------------');
+                console.log('Title: ' + response.data.Title);
                 console.log('Year of release: ' + response.data.Year);
                 console.log('IMDB Rating: ' + response.data.imdbRating);
                 console.log('Rotten Tomatoes Rating: ' + response.data.Ratings[1].Value);
@@ -65,6 +86,8 @@ switch (command) {
                 console.log('Language: ' + response.data.Language);
                 console.log('Plot: ' + response.data.Plot);
                 console.log('Actors/Actresses: ' + response.data.Actors);
+                console.log('-------------------------------------');
+                console.log('');
             })
             .catch(function(err) {
                 console.log(err);
