@@ -2,6 +2,7 @@ require("dotenv").config();
 let keys = require("./keys.js");
 let axios = require('axios');
 let Spotify = require('node-spotify-api');
+let moment = require("moment")
 let fs = require('fs');
 
 // new keys
@@ -133,7 +134,7 @@ function searchBandsInTown(toSearch) {
             appendTextToLogAndConsoleLog('-------------------------------------');
             appendTextToLogAndConsoleLog('Venue: ' + response.data[0].venue.name);
             appendTextToLogAndConsoleLog('Where: ' + response.data[0].venue.city + ', ' + response.data[0].venue.region + ' ' + response.data[0].venue.country);
-            appendTextToLogAndConsoleLog('Venue: ' + response.data[0].datetime);
+            appendTextToLogAndConsoleLog('Venue: ' + moment(response.data[0].datetime).format('lll'));
             appendTextToLogAndConsoleLog('-------------------------------------');
             appendTextToLogAndConsoleLog('');
         })
@@ -148,7 +149,7 @@ function searchBandsInTown(toSearch) {
             appendTextToLogAndConsoleLog('-------------------------------------');
             appendTextToLogAndConsoleLog('Venue: ' + response.data[0].venue.name);
             appendTextToLogAndConsoleLog('Where: ' + response.data[0].venue.city + ', ' + response.data[0].venue.region + ' ' + response.data[0].venue.country);
-            appendTextToLogAndConsoleLog('Venue: ' + response.data[0].datetime);
+            appendTextToLogAndConsoleLog('Venue: ' + moment(response.data[0].datetime).format('lll'));
             appendTextToLogAndConsoleLog('-------------------------------------');
             appendTextToLogAndConsoleLog('');
         })
