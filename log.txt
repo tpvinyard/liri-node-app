@@ -27,3 +27,450 @@ Where: Haparanda,  Sweden
 Venue: Oct 10, 2019 7:00 PM
 -------------------------------------
 
+Venue: [object Object]
+Venue: [object Object]
+Venue: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+
+-------------------------------------
+Venue: Biosalongen Folkets Hus
+Where: Haparanda,  Sweden
+Venue: Oct 10, 2019 7:00 PM
+-------------------------------------
+
+
+-------------------------------------
+Venue: Marvel Stadium
+Where: Docklands,  Australia
+Venue: Oct 22, 2019 7:30 PM
+-------------------------------------
+
+
+-------------------------------------
+Venue: Marvel Stadium
+Where: Docklands,  Australia
+Venue: Oct 24, 2019 7:30 PM
+-------------------------------------
+
+
+-------------------------------------
+Venue: ANZ Stadium
+Where: Sydney Olympic Park,  Australia
+Venue: Oct 26, 2019 7:30 PM
+-------------------------------------
+
+
+-------------------------------------
+Venue: Queensland Sport And Athletics Centre (QSAC)
+Where: Brisbane,  Australia
+Venue: Oct 29, 2019 7:30 PM
+-------------------------------------
+
+
+-------------------------------------
+Venue: Mt Smart Stadium
+Where: Auckland,  New Zealand
+Venue: Nov 2, 2019 7:30 PM
+-------------------------------------
+
+
+-------------------------------------
+Venue: Estadio Nacional
+Where: Estadio Nacional,  Chile
+Venue: Apr 15, 2020 9:00 PM
+-------------------------------------
+
+
+-------------------------------------
+Venue: Argentine Polo Association
+Where: Bwp,  Argentina
+Venue: Apr 18, 2020 8:00 PM
+-------------------------------------
+
+
+-------------------------------------
+Venue: Arena do Grêmio
+Where: Porto Alegre,  Brazil
+Venue: Apr 21, 2020 8:00 PM
+-------------------------------------
+
+
+-------------------------------------
+Venue: Arena do Grêmio
+Where: Porto Alegre,  Brazil
+Venue: Apr 23, 2020 8:00 PM
+-------------------------------------
+
+
+-------------------------------------
+Venue: Mineirão
+Where: Belo Horizonte,  Brazil
+Venue: Apr 25, 2020 8:00 PM
+-------------------------------------
+
+
+-------------------------------------
+Venue: Mineirão
+Where: Belo Horizonte,  Brazil
+Venue: Apr 27, 2020 8:00 PM
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Ace of Base
+Song name: The Sign
+Link on Spotify: https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNE
+Album: The Sign (US Album) [Remastered]
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Ace of Base
+Song name: All That She Wants
+Link on Spotify: https://open.spotify.com/track/6kWJvPfC4DgUpRsXKNa9z9
+Album: The Sign (US Album) [Remastered]
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Ace of Base
+Song name: The Sign
+Link on Spotify: https://open.spotify.com/track/3DYVWvPh3kGwPasp7yjahc
+Album: Greatest Hits
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Ace of Base
+Song name: Don't Turn Around
+Link on Spotify: https://open.spotify.com/track/4SYMibQ93bfzOk6uzkF0dO
+Album: The Sign (US Album) [Remastered]
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Ace of Base
+Song name: Happy Nation
+Link on Spotify: https://open.spotify.com/track/7fb22pjF62S9r1s1pian5K
+Album: The Sign (US Album) [Remastered]
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Ace of Base
+Song name: Wheel of Fortune
+Link on Spotify: https://open.spotify.com/track/08bZOAr9YLpCLL0Jmtsgbi
+Album: The Sign (US Album) [Remastered]
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Ace of Base
+Song name: Living in Danger
+Link on Spotify: https://open.spotify.com/track/5ICwDM1fzgqv7HNFUIjPyx
+Album: The Sign (US Album) [Remastered]
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Ace of Base
+Song name: Dancer in a Daydream
+Link on Spotify: https://open.spotify.com/track/56r15mfaTXZoGEYBe2FHur
+Album: The Sign (US Album) [Remastered]
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Ace of Base
+Song name: Young and Proud
+Link on Spotify: https://open.spotify.com/track/6sUq6M1iKXQLZHZqefgtEq
+Album: The Sign (US Album) [Remastered]
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Ace of Base
+Song name: Waiting for Magic - Total Remix 7" Version
+Link on Spotify: https://open.spotify.com/track/21ra9MgsyMTrxCvIPObFGL
+Album: The Sign (US Album) [Remastered]
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Ace of Base
+Song name: The Sign
+Link on Spotify: https://open.spotify.com/track/3Gxku40T2RGPqtLYpFAngP
+Album: Happy Nation (U.S. Version) [Remastered]
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Ace of Base
+Song name: Voulez-Vous danser
+Link on Spotify: https://open.spotify.com/track/2F71FlxVyNcoHj3MrHJF5e
+Album: The Sign (US Album) [Remastered]
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Ace of Base
+Song name: My Mind - Mindless Mix
+Link on Spotify: https://open.spotify.com/track/2Ol8ieTGPnzi9kVvZ1f7IN
+Album: The Sign (US Album) [Remastered]
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Ace of Base
+Song name: All That She Wants - Banghra Version
+Link on Spotify: https://open.spotify.com/track/372oGXavXzqZJp5hzXxZlu
+Album: The Sign (US Album) [Remastered]
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Ace of Base
+Song name: Mr Ace - Demo 1991 Bonus Track
+Link on Spotify: https://open.spotify.com/track/6IcW0DmqcuVESqTIbgkyH8
+Album: The Sign (US Album) [Remastered]
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Ace of Base
+Song name: The Sign
+Link on Spotify: https://open.spotify.com/track/3JXzEzQCYrblna7SCaegAm
+Album: The Sign (The Remixes)
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Ace of Base
+Song name: The Sign - Long Version
+Link on Spotify: https://open.spotify.com/track/1csXR5Vn2SgOi7cw0lxJv8
+Album: The Sign (The Remixes)
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Ace of Base
+Song name: The Sign - Ultimix
+Link on Spotify: https://open.spotify.com/track/3sM1ncxPiL0UCBlIVkb637
+Album: The Sign (The Remixes)
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Ace of Base
+Song name: The Sign
+Link on Spotify: https://open.spotify.com/track/2ZkiqOy0WpIXRfj1WP9fyg
+Album: The Sign (The Remixes)
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Ace of Base
+Song name: The Sign - Long Version
+Link on Spotify: https://open.spotify.com/track/2DvWVUrRXB0HYrjDqQWjjt
+Album: The Sign (The Remixes)
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Backstreet Boys
+Song name: I Want It That Way
+Link on Spotify: https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6
+Album: The Hits--Chapter One
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Backstreet Boys
+Song name: I Want It That Way
+Link on Spotify: https://open.spotify.com/track/47BBI51FKFwOMlIiX6m8ya
+Album: Millennium
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Mick Jensen
+Song name: I Want It That Way
+Link on Spotify: https://open.spotify.com/track/0ympGdYdVlZ8zo6irdjMvd
+Album: I Want It That Way
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Anthem Lights
+Song name: I Want It That Way
+Link on Spotify: https://open.spotify.com/track/3Ww6kEWxLh4Ub4WPJ9hMtA
+Album: Covers Part IV
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Backstreet Boys
+Song name: I Want It That Way - Reimagined
+Link on Spotify: https://open.spotify.com/track/62KnDRUq6CBcT7Bqb9IHKV
+Album: I Want It That Way (Reimagined)
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): "Weird Al" Yankovic
+Song name: Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
+Link on Spotify: https://open.spotify.com/track/4vHb50VkxDzHYwLiHfWczK
+Album: Poodle Hat
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Dynamite Boy
+Song name: I Want It That Way
+Link on Spotify: https://open.spotify.com/track/0X5ygHsca3pJ3KErPsXhGc
+Album: Punk Goes Pop
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Nineties Legends
+Song name: I Want It That Way
+Link on Spotify: https://open.spotify.com/track/40jPuNkx6EFoRJXWht3NJO
+Album: Musicbox
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Tyler and Mark
+Song name: I Want It That Way
+Link on Spotify: https://open.spotify.com/track/5c2CckYG203pzNuwLh5sAI
+Album: Beautiful Dreams
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Jess and Gabriel
+Song name: I Want It That Way
+Link on Spotify: https://open.spotify.com/track/52FgeDoHydoWZbFGgxwCdH
+Album: Under the Covers, Vol. 3
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Steel Panther
+Song name: I Want It That Way
+Link on Spotify: https://open.spotify.com/track/0448cNUvZGCAlUpIPO5kdY
+Album: I Want It That Way
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Backstreet Boys
+Song name: I Want It That Way
+Link on Spotify: https://open.spotify.com/track/1zCiqxhampG4dcC7HEqPu5
+Album: 90 Sweet 90s Hits!
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Glee Cast
+Song name: Bye Bye Bye / I Want It That Way (Glee Cast Version)
+Link on Spotify: https://open.spotify.com/track/3t7m7AzV2ntuI9fIT6KREP
+Album: Bye Bye Bye / I Want It That Way (Glee Cast Version)
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Scary Pockets
+Song name: I Want It That Way
+Link on Spotify: https://open.spotify.com/track/4IWQXV01Lp0wsXCXo09EBr
+Album: Nu Funk
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Backstreet Boys
+Song name: I Want It That Way
+Link on Spotify: https://open.spotify.com/track/2KMwtsWwL5QDtSpm814tju
+Album: NKOTBSB
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Boyce Avenue
+Song name: I Want It That Way
+Link on Spotify: https://open.spotify.com/track/16COzZ7jCVn3O8b8ZgviOx
+Album: Cover Sessions, Vol. 2
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Scott Bradlee's Postmodern Jukebox
+Song name: I Want It That Way
+Link on Spotify: https://open.spotify.com/track/1Le3uYU5NU9cXXtYeSWnEM
+Album: Selfies on Kodachrome
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): "Weird Al" Yankovic
+Song name: Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
+Link on Spotify: https://open.spotify.com/track/1vaico2C72imYowF4Kv04V
+Album: The Essential "Weird Al" Yankovic
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): CaryLamb
+Song name: I Want It That Way
+Link on Spotify: https://open.spotify.com/track/3v2tDdRn9dtbxGrkjx7t5d
+Album: Boulevard You
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Yshop
+Song name: I Want It That Way
+Link on Spotify: https://open.spotify.com/track/0sRt44NXdLVqYeD2TAm1A5
+Album: I Want It That Way
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Backstreet Boys
+Song name: I Want It That Way
+Link on Spotify: https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6
+Album: The Hits--Chapter One
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Backstreet Boys
+Song name: I Want It That Way
+Link on Spotify: https://open.spotify.com/track/47BBI51FKFwOMlIiX6m8ya
+Album: Millennium
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Mick Jensen
+Song name: I Want It That Way
+Link on Spotify: https://open.spotify.com/track/0ympGdYdVlZ8zo6irdjMvd
+Album: I Want It That Way
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Anthem Lights
+Song name: I Want It That Way
+Link on Spotify: https://open.spotify.com/track/3Ww6kEWxLh4Ub4WPJ9hMtA
+Album: Covers Part IV
+-------------------------------------
+
+
+-------------------------------------
+Artist Name(s): Backstreet Boys
+Song name: I Want It That Way - Reimagined
+Link on Spotify: https://open.spotify.com/track/62KnDRUq6CBcT7Bqb9IHKV
+Album: I Want It That Way (Reimagined)
+-------------------------------------
+

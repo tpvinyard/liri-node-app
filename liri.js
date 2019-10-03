@@ -10,8 +10,6 @@ const spotify = new Spotify(keys.spotify);
 
 const omdb = keys.omdb.key;
 
-// const bandsInTown = keys.bandsInTown.key;
-
 let command = process.argv[2];
 let toSearch = process.argv.slice(3).join('+');
 
@@ -92,16 +90,18 @@ function searchOMDB(toSearch) {
 function searchSpotify(toSearch) {
     if (toSearch) {
         spotify
-            .request(`https://api.spotify.com/v1/search?q="${toSearch}"&type=track`)
+            .request(`https://api.spotify.com/v1/search?q="${toSearch}"&type=track&limit=5`)
             .then(function(response) {
-                appendTextToLogAndConsoleLog('');
-                appendTextToLogAndConsoleLog('-------------------------------------');
-                appendTextToLogAndConsoleLog('Artist Name(s): ' + response.tracks.items[0].artists[0].name);
-                appendTextToLogAndConsoleLog('Song name: ' + response.tracks.items[0].name);
-                appendTextToLogAndConsoleLog('Link on Spotify: ' + response.tracks.items[0].external_urls.spotify);
-                appendTextToLogAndConsoleLog('Album: ' + response.tracks.items[0].album.name);
-                appendTextToLogAndConsoleLog('-------------------------------------');
-                appendTextToLogAndConsoleLog('');
+                for (let i=0; i < response.tracks.items.length; i++) {
+                    appendTextToLogAndConsoleLog('');
+                    appendTextToLogAndConsoleLog('-------------------------------------');
+                    appendTextToLogAndConsoleLog('Artist Name(s): ' + response.tracks.items[i].artists[0].name);
+                    appendTextToLogAndConsoleLog('Song name: ' + response.tracks.items[i].name);
+                    appendTextToLogAndConsoleLog('Link on Spotify: ' + response.tracks.items[i].external_urls.spotify);
+                    appendTextToLogAndConsoleLog('Album: ' + response.tracks.items[i].album.name);
+                    appendTextToLogAndConsoleLog('-------------------------------------');
+                    appendTextToLogAndConsoleLog('');
+                };
             })
             .catch(function(err) {
                 appendTextToLogAndConsoleLog(err);
@@ -112,10 +112,10 @@ function searchSpotify(toSearch) {
             .then(function(response) {
                 appendTextToLogAndConsoleLog('');
                 appendTextToLogAndConsoleLog('-------------------------------------');
-                appendTextToLogAndConsoleLog('Artist Name(s): ' + response.tracks.items[0].artists[0].name);
-                appendTextToLogAndConsoleLog('Song name: ' + response.tracks.items[0].name);
-                appendTextToLogAndConsoleLog('Link on Spotify: ' + response.tracks.items[0].external_urls.spotify);
-                appendTextToLogAndConsoleLog('Album: ' + response.tracks.items[0].album.name);
+                appendTextToLogAndConsoleLog('Artist Name(s): ' + response.tracks.items[i].artists[0].name);
+                appendTextToLogAndConsoleLog('Song name: ' + response.tracks.items[i].name);
+                appendTextToLogAndConsoleLog('Link on Spotify: ' + response.tracks.items[i].external_urls.spotify);
+                appendTextToLogAndConsoleLog('Album: ' + response.tracks.items[i].album.name);
                 appendTextToLogAndConsoleLog('-------------------------------------');
                 appendTextToLogAndConsoleLog('');
             })
@@ -130,13 +130,15 @@ function searchBandsInTown(toSearch) {
         axios
         .get(`https://rest.bandsintown.com/artists/${toSearch}/events?app_id=codingbootcamp`)
         .then(function(response) {
-            appendTextToLogAndConsoleLog('');
-            appendTextToLogAndConsoleLog('-------------------------------------');
-            appendTextToLogAndConsoleLog('Venue: ' + response.data[0].venue.name);
-            appendTextToLogAndConsoleLog('Where: ' + response.data[0].venue.city + ', ' + response.data[0].venue.region + ' ' + response.data[0].venue.country);
-            appendTextToLogAndConsoleLog('Venue: ' + moment(response.data[0].datetime).format('lll'));
-            appendTextToLogAndConsoleLog('-------------------------------------');
-            appendTextToLogAndConsoleLog('');
+            for (let i=0; i < response.data.length; i++) {
+                appendTextToLogAndConsoleLog('');
+                appendTextToLogAndConsoleLog('-------------------------------------');
+                appendTextToLogAndConsoleLog('Venue: ' + response.data[i].venue.name);
+                appendTextToLogAndConsoleLog('Where: ' + response.data[i].venue.city + ', ' + response.data[i].venue.region + ' ' + response.data[i].venue.country);
+                appendTextToLogAndConsoleLog('Venue: ' + moment(response.data[i].datetime).format('lll'));
+                appendTextToLogAndConsoleLog('-------------------------------------');
+                appendTextToLogAndConsoleLog('');
+            };
         })
         .catch(function(err) {
             appendTextToLogAndConsoleLog(err);
@@ -145,13 +147,15 @@ function searchBandsInTown(toSearch) {
         axios
         .get(`https://rest.bandsintown.com/artists/Jonas+Brothers/events?app_id=codingbootcamp`)
         .then(function(response) {
-            appendTextToLogAndConsoleLog('');
-            appendTextToLogAndConsoleLog('-------------------------------------');
-            appendTextToLogAndConsoleLog('Venue: ' + response.data[0].venue.name);
-            appendTextToLogAndConsoleLog('Where: ' + response.data[0].venue.city + ', ' + response.data[0].venue.region + ' ' + response.data[0].venue.country);
-            appendTextToLogAndConsoleLog('Venue: ' + moment(response.data[0].datetime).format('lll'));
-            appendTextToLogAndConsoleLog('-------------------------------------');
-            appendTextToLogAndConsoleLog('');
+            for (let i=0; i < response.data.length; i++) {
+                appendTextToLogAndConsoleLog('');
+                appendTextToLogAndConsoleLog('-------------------------------------');
+                appendTextToLogAndConsoleLog('Venue: ' + response.data[i].venue.name);
+                appendTextToLogAndConsoleLog('Where: ' + response.data[i].venue.city + ', ' + response.data[i].venue.region + ' ' + response.data[i].venue.country);
+                appendTextToLogAndConsoleLog('Venue: ' + moment(response.data[i].datetime).format('lll'));
+                appendTextToLogAndConsoleLog('-------------------------------------');
+                appendTextToLogAndConsoleLog('');
+            };
         })
         .catch(function(err) {
             appendTextToLogAndConsoleLog(err);
