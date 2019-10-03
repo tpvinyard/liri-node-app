@@ -108,16 +108,18 @@ function searchSpotify(toSearch) {
             })
     } else {
         spotify
-            .request(`https://api.spotify.com/v1/search?q="The+Sign"+artist:"ace+of+base"&type=track`)
+            .request(`https://api.spotify.com/v1/search?q="The+Sign"+artist:"ace+of+base"&type=track&limit=5`)
             .then(function(response) {
-                appendTextToLogAndConsoleLog('');
-                appendTextToLogAndConsoleLog('-------------------------------------');
-                appendTextToLogAndConsoleLog('Artist Name(s): ' + response.tracks.items[i].artists[0].name);
-                appendTextToLogAndConsoleLog('Song name: ' + response.tracks.items[i].name);
-                appendTextToLogAndConsoleLog('Link on Spotify: ' + response.tracks.items[i].external_urls.spotify);
-                appendTextToLogAndConsoleLog('Album: ' + response.tracks.items[i].album.name);
-                appendTextToLogAndConsoleLog('-------------------------------------');
-                appendTextToLogAndConsoleLog('');
+                for (let i=0; i < response.tracks.items.length; i++) {
+                    appendTextToLogAndConsoleLog('');
+                    appendTextToLogAndConsoleLog('-------------------------------------');
+                    appendTextToLogAndConsoleLog('Artist Name(s): ' + response.tracks.items[i].artists[0].name);
+                    appendTextToLogAndConsoleLog('Song name: ' + response.tracks.items[i].name);
+                    appendTextToLogAndConsoleLog('Link on Spotify: ' + response.tracks.items[i].external_urls.spotify);
+                    appendTextToLogAndConsoleLog('Album: ' + response.tracks.items[i].album.name);
+                    appendTextToLogAndConsoleLog('-------------------------------------');
+                    appendTextToLogAndConsoleLog('');
+                }
             })
             .catch(function(err) {
                 appendTextToLogAndConsoleLog(err);

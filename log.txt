@@ -1,119 +1,124 @@
 
 -------------------------------------
-TypeError: Cannot read property 'name' of undefined
-
--------------------------------------
-Venue: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
--------------------------------------
-
-
--------------------------------------
-Venue: Biosalongen Folkets Hus
-Where: Haparanda,  Sweden
-Venue: undefined
+Venue: del Lago Resort & Casino
+Where: Waterloo, NY United States
+Venue: Oct 12, 2019 8:00 PM
 -------------------------------------
 
 
 -------------------------------------
-Venue: Biosalongen Folkets Hus
-Where: Haparanda,  Sweden
-Venue: 2019-10-10T19:00:00
+Venue: Mayo Performing Arts Center
+Where: Morristown, NJ United States
+Venue: Oct 15, 2019 8:00 PM
 -------------------------------------
 
 
 -------------------------------------
-Venue: Biosalongen Folkets Hus
-Where: Haparanda,  Sweden
-Venue: Oct 10, 2019 7:00 PM
--------------------------------------
-
-Venue: [object Object]
-Venue: [object Object]
-Venue: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
-
--------------------------------------
-Venue: Biosalongen Folkets Hus
-Where: Haparanda,  Sweden
-Venue: Oct 10, 2019 7:00 PM
+Venue: Clearwater Jazz Holiday
+Where: Clearwater, FL United States
+Venue: Oct 18, 2019 12:00 PM
 -------------------------------------
 
 
 -------------------------------------
-Venue: Marvel Stadium
-Where: Docklands,  Australia
-Venue: Oct 22, 2019 7:30 PM
+Venue: Terminal West
+Where: Atlanta, GA United States
+Venue: Oct 19, 2019 3:00 PM
 -------------------------------------
 
 
 -------------------------------------
-Venue: Marvel Stadium
-Where: Docklands,  Australia
-Venue: Oct 24, 2019 7:30 PM
+Venue: The Capitol Theatre
+Where: Port Chester, NY United States
+Venue: Dec 31, 2019 9:00 PM
 -------------------------------------
 
 
 -------------------------------------
-Venue: ANZ Stadium
-Where: Sydney Olympic Park,  Australia
-Venue: Oct 26, 2019 7:30 PM
+Artist Name(s): Backstreet Boys
+Song name: I Want It That Way
+Link on Spotify: https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6
+Album: The Hits--Chapter One
 -------------------------------------
 
 
 -------------------------------------
-Venue: Queensland Sport And Athletics Centre (QSAC)
-Where: Brisbane,  Australia
-Venue: Oct 29, 2019 7:30 PM
+Artist Name(s): Backstreet Boys
+Song name: I Want It That Way
+Link on Spotify: https://open.spotify.com/track/47BBI51FKFwOMlIiX6m8ya
+Album: Millennium
 -------------------------------------
 
 
 -------------------------------------
-Venue: Mt Smart Stadium
-Where: Auckland,  New Zealand
-Venue: Nov 2, 2019 7:30 PM
+Artist Name(s): Mick Jensen
+Song name: I Want It That Way
+Link on Spotify: https://open.spotify.com/track/0ympGdYdVlZ8zo6irdjMvd
+Album: I Want It That Way
 -------------------------------------
 
 
 -------------------------------------
-Venue: Estadio Nacional
-Where: Estadio Nacional,  Chile
-Venue: Apr 15, 2020 9:00 PM
+Artist Name(s): Anthem Lights
+Song name: I Want It That Way
+Link on Spotify: https://open.spotify.com/track/3Ww6kEWxLh4Ub4WPJ9hMtA
+Album: Covers Part IV
 -------------------------------------
 
 
 -------------------------------------
-Venue: Argentine Polo Association
-Where: Bwp,  Argentina
-Venue: Apr 18, 2020 8:00 PM
+Artist Name(s): Backstreet Boys
+Song name: I Want It That Way - Reimagined
+Link on Spotify: https://open.spotify.com/track/62KnDRUq6CBcT7Bqb9IHKV
+Album: I Want It That Way (Reimagined)
 -------------------------------------
 
 
 -------------------------------------
-Venue: Arena do Grêmio
-Where: Porto Alegre,  Brazil
-Venue: Apr 21, 2020 8:00 PM
+Artist Name(s): Elvis Presley
+Song name: Can't Help Falling in Love
+Link on Spotify: https://open.spotify.com/track/44AyOl4qVkzS48vBsbNXaC
+Album: Blue Hawaii
 -------------------------------------
 
 
 -------------------------------------
-Venue: Arena do Grêmio
-Where: Porto Alegre,  Brazil
-Venue: Apr 23, 2020 8:00 PM
+Artist Name(s): Haley Reinhart
+Song name: Can't Help Falling in Love
+Link on Spotify: https://open.spotify.com/track/6yIHGmQLJxWAUZ1ZkENemN
+Album: Better
 -------------------------------------
 
 
 -------------------------------------
-Venue: Mineirão
-Where: Belo Horizonte,  Brazil
-Venue: Apr 25, 2020 8:00 PM
+Artist Name(s): Lizzo
+Song name: Heaven Help Me
+Link on Spotify: https://open.spotify.com/track/7oJf7PeBwMP7iFwyqfTfXa
+Album: Cuz I Love You (Deluxe)
 -------------------------------------
 
 
 -------------------------------------
-Venue: Mineirão
-Where: Belo Horizonte,  Brazil
-Venue: Apr 27, 2020 8:00 PM
+Artist Name(s): The Beatles
+Song name: Yesterday - Remastered 2009
+Link on Spotify: https://open.spotify.com/track/3BQHpFgAp4l80e1XslIjNI
+Album: Help! (Remastered)
 -------------------------------------
 
+
+-------------------------------------
+Artist Name(s): NLE Choppa
+Song name: I Don't Need No Help
+Link on Spotify: https://open.spotify.com/track/63wj9nAxfTgNSOh4szh24w
+Album: I Don't Need No Help
+-------------------------------------
+
+
+-------------------------------------
+ReferenceError: i is not defined
+
+-------------------------------------
+ReferenceError: i is not defined
 
 -------------------------------------
 Artist Name(s): Ace of Base
@@ -272,205 +277,5 @@ Artist Name(s): Ace of Base
 Song name: The Sign - Long Version
 Link on Spotify: https://open.spotify.com/track/2DvWVUrRXB0HYrjDqQWjjt
 Album: The Sign (The Remixes)
--------------------------------------
-
-
--------------------------------------
-Artist Name(s): Backstreet Boys
-Song name: I Want It That Way
-Link on Spotify: https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6
-Album: The Hits--Chapter One
--------------------------------------
-
-
--------------------------------------
-Artist Name(s): Backstreet Boys
-Song name: I Want It That Way
-Link on Spotify: https://open.spotify.com/track/47BBI51FKFwOMlIiX6m8ya
-Album: Millennium
--------------------------------------
-
-
--------------------------------------
-Artist Name(s): Mick Jensen
-Song name: I Want It That Way
-Link on Spotify: https://open.spotify.com/track/0ympGdYdVlZ8zo6irdjMvd
-Album: I Want It That Way
--------------------------------------
-
-
--------------------------------------
-Artist Name(s): Anthem Lights
-Song name: I Want It That Way
-Link on Spotify: https://open.spotify.com/track/3Ww6kEWxLh4Ub4WPJ9hMtA
-Album: Covers Part IV
--------------------------------------
-
-
--------------------------------------
-Artist Name(s): Backstreet Boys
-Song name: I Want It That Way - Reimagined
-Link on Spotify: https://open.spotify.com/track/62KnDRUq6CBcT7Bqb9IHKV
-Album: I Want It That Way (Reimagined)
--------------------------------------
-
-
--------------------------------------
-Artist Name(s): "Weird Al" Yankovic
-Song name: Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
-Link on Spotify: https://open.spotify.com/track/4vHb50VkxDzHYwLiHfWczK
-Album: Poodle Hat
--------------------------------------
-
-
--------------------------------------
-Artist Name(s): Dynamite Boy
-Song name: I Want It That Way
-Link on Spotify: https://open.spotify.com/track/0X5ygHsca3pJ3KErPsXhGc
-Album: Punk Goes Pop
--------------------------------------
-
-
--------------------------------------
-Artist Name(s): Nineties Legends
-Song name: I Want It That Way
-Link on Spotify: https://open.spotify.com/track/40jPuNkx6EFoRJXWht3NJO
-Album: Musicbox
--------------------------------------
-
-
--------------------------------------
-Artist Name(s): Tyler and Mark
-Song name: I Want It That Way
-Link on Spotify: https://open.spotify.com/track/5c2CckYG203pzNuwLh5sAI
-Album: Beautiful Dreams
--------------------------------------
-
-
--------------------------------------
-Artist Name(s): Jess and Gabriel
-Song name: I Want It That Way
-Link on Spotify: https://open.spotify.com/track/52FgeDoHydoWZbFGgxwCdH
-Album: Under the Covers, Vol. 3
--------------------------------------
-
-
--------------------------------------
-Artist Name(s): Steel Panther
-Song name: I Want It That Way
-Link on Spotify: https://open.spotify.com/track/0448cNUvZGCAlUpIPO5kdY
-Album: I Want It That Way
--------------------------------------
-
-
--------------------------------------
-Artist Name(s): Backstreet Boys
-Song name: I Want It That Way
-Link on Spotify: https://open.spotify.com/track/1zCiqxhampG4dcC7HEqPu5
-Album: 90 Sweet 90s Hits!
--------------------------------------
-
-
--------------------------------------
-Artist Name(s): Glee Cast
-Song name: Bye Bye Bye / I Want It That Way (Glee Cast Version)
-Link on Spotify: https://open.spotify.com/track/3t7m7AzV2ntuI9fIT6KREP
-Album: Bye Bye Bye / I Want It That Way (Glee Cast Version)
--------------------------------------
-
-
--------------------------------------
-Artist Name(s): Scary Pockets
-Song name: I Want It That Way
-Link on Spotify: https://open.spotify.com/track/4IWQXV01Lp0wsXCXo09EBr
-Album: Nu Funk
--------------------------------------
-
-
--------------------------------------
-Artist Name(s): Backstreet Boys
-Song name: I Want It That Way
-Link on Spotify: https://open.spotify.com/track/2KMwtsWwL5QDtSpm814tju
-Album: NKOTBSB
--------------------------------------
-
-
--------------------------------------
-Artist Name(s): Boyce Avenue
-Song name: I Want It That Way
-Link on Spotify: https://open.spotify.com/track/16COzZ7jCVn3O8b8ZgviOx
-Album: Cover Sessions, Vol. 2
--------------------------------------
-
-
--------------------------------------
-Artist Name(s): Scott Bradlee's Postmodern Jukebox
-Song name: I Want It That Way
-Link on Spotify: https://open.spotify.com/track/1Le3uYU5NU9cXXtYeSWnEM
-Album: Selfies on Kodachrome
--------------------------------------
-
-
--------------------------------------
-Artist Name(s): "Weird Al" Yankovic
-Song name: Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
-Link on Spotify: https://open.spotify.com/track/1vaico2C72imYowF4Kv04V
-Album: The Essential "Weird Al" Yankovic
--------------------------------------
-
-
--------------------------------------
-Artist Name(s): CaryLamb
-Song name: I Want It That Way
-Link on Spotify: https://open.spotify.com/track/3v2tDdRn9dtbxGrkjx7t5d
-Album: Boulevard You
--------------------------------------
-
-
--------------------------------------
-Artist Name(s): Yshop
-Song name: I Want It That Way
-Link on Spotify: https://open.spotify.com/track/0sRt44NXdLVqYeD2TAm1A5
-Album: I Want It That Way
--------------------------------------
-
-
--------------------------------------
-Artist Name(s): Backstreet Boys
-Song name: I Want It That Way
-Link on Spotify: https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6
-Album: The Hits--Chapter One
--------------------------------------
-
-
--------------------------------------
-Artist Name(s): Backstreet Boys
-Song name: I Want It That Way
-Link on Spotify: https://open.spotify.com/track/47BBI51FKFwOMlIiX6m8ya
-Album: Millennium
--------------------------------------
-
-
--------------------------------------
-Artist Name(s): Mick Jensen
-Song name: I Want It That Way
-Link on Spotify: https://open.spotify.com/track/0ympGdYdVlZ8zo6irdjMvd
-Album: I Want It That Way
--------------------------------------
-
-
--------------------------------------
-Artist Name(s): Anthem Lights
-Song name: I Want It That Way
-Link on Spotify: https://open.spotify.com/track/3Ww6kEWxLh4Ub4WPJ9hMtA
-Album: Covers Part IV
--------------------------------------
-
-
--------------------------------------
-Artist Name(s): Backstreet Boys
-Song name: I Want It That Way - Reimagined
-Link on Spotify: https://open.spotify.com/track/62KnDRUq6CBcT7Bqb9IHKV
-Album: I Want It That Way (Reimagined)
 -------------------------------------
 
