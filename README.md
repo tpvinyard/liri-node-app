@@ -15,13 +15,14 @@ The application's purpose is to give the user access to three well known APIs  (
 	to the file
 6. Now you are ready to take full advantage of LIRI. From the terminal you have access to the three APIs as follows.
 7. Bands In Town API: `node liri.js concert-this <name-of-band/artist>`
-		Insert GIF here
+		![](concert-this.gif)
 8. Spotify API: `node liri.js spotify-this-song <name-of-song>`
-		Insert GIF here 
+		![](spotify-this-song.gif)
 9. OMDB API: `node liri.js movie-this <name-of-movie>`
-		Insert GIF here
+		![](movie-this.gif)
 10. Other functionality: 
 	* `node liri.js do-what-it-says` will take whatever is written in the random.txt file and read/run it
+        ![](do-what.gif)
 	* check the `log.txt` file for a log of each item that has been returned to the console
 	* each function has a default search that will occur if the user does not provide a search term 
 
